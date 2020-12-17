@@ -7,7 +7,7 @@
                 {% for Nota in lista_notas %}
                     <div class="card mx-auto mb-3" style="width: 32rem;">
                         <div class="card-body">
-                        <p class="card-text">{{ Nota.texto }}</p>
+                        <p class="card-text">{{ Nota.texto|truncatewords:25 }}</p>
                         </div>
                         <a class="stretched-link" href="{% url 'core:visualizar' Nota.id %}"></a>
                     </div>
