@@ -1,0 +1,15 @@
+{% extends 'core/model-page.html' %}
+
+{% block content %}
+<h1 class="mt-3 mb-3">Adicionar nota</h1>
+<a class="text-muted" href="{% url 'core:index' %}"><h4>Voltar</h4></a>
+
+<form class="form-nota mx-auto" action="{% url 'core:envianota' %}" method="post">
+    {% csrf_token %}
+    <div class="form-group">
+        <textarea class="form-control" id="campotexto" rows="24" name="novotexto"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary mr-2">Salvar</button>
+    <a class="btn btn-outline-dark" href="{% url 'core:index' %}" role="button">Cancelar</a>
+</form>
+{% endblock %}
