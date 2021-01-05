@@ -119,3 +119,11 @@ USE_TZ = False
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# REDIRECT LOGIN/LOGOUT URLS
+
+LOGIN_URL = '/core/accounts/login/' # this is the name of the url
+
+LOGOUT_REDIRECT_URL = '/core/accounts/login/' # this is the name of the url
+
+LOGIN_REDIRECT_URL = '/core/' # this is the name of the url
