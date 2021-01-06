@@ -13,24 +13,9 @@ def index(request):
     context = {'lista_notas': lista_notas}
     return render(request, 'core/notas.html', context)
 
-#def login(request):
-#    return render(request, 'core/login.html')
-
-@login_required
-def envialogin(request):
-    email = request.POST['inputEmail']
-    senha = request.POST['inputSenha']
-    user = authenticate(request, username=email, password=senha)
-    if user is not None:
-        return redirect('core:index')
-    else:
-        return redirect('core:login')
-
-@login_required
 def cadastrar(request):
     return render(request, 'core/cadastrar.html')
 
-@login_required
 def enviacadastro(request):
     nome = request.POST['inputNome']
     email = request.POST['inputEmail']
