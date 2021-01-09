@@ -3,5 +3,19 @@
 {% block content %}
 <h1 class="mt-3 mb-3">Sobre</h1>
 <a class="text-muted" href="{% url 'core:index' %}"><h4>Voltar</h4></a>
+<div class="container">
+<h4>Descrição</h4>
+<p>O Webnote é uma web application destinada a criação e organização de notas de texto do usuário, similar a apps como 
+Evernote e Simplenote, de maneira simples. O projeto foi criado primeiramente com o objetivo de explorar e desenvolver minhas 
+habilidades com o framework Django.
+</p>
+<h4>Features</h4>
+<ul>
+    <li>Sistema de cadastro, login e logout de usuários</li>
+    <li>Adicionar, visualizar, editar e apagar notas de texto</li>
+    <li>Layout desenvolvido com o framework Bootstrap, embora ainda não totalmente responsivo, sendo melhor visualizado em desktop</li>
+</ul>
+<p>O projeto encontra-se disponível no GitHub - <a href="https://github.com/KalebeGouvea/webnote">https://github.com/KalebeGouvea/webnote</a></p>
+</div>
 
 {% endblock %}
