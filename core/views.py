@@ -23,7 +23,7 @@ def enviacadastro(request):
     user = User.objects.create_user(email, email, senha)
     user.first_name = nome
     user.save()
-    return render(request, 'core/login.html')
+    return HttpResponseRedirect(reverse('core:login'))
 
 @login_required
 def adicionar(request):
