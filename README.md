@@ -17,10 +17,7 @@
 
 ### Imagens
 ![1](https://user-images.githubusercontent.com/3924125/116319069-3c11ed80-a78c-11eb-84a1-2a28f9697ae9.png)
-![2](https://user-images.githubusercontent.com/3924125/116319073-3d431a80-a78c-11eb-8c27-b73dea7343c7.png)
 ![3](https://user-images.githubusercontent.com/3924125/116319079-3e744780-a78c-11eb-854f-2eef7fe8fa98.png)
-![4](https://user-images.githubusercontent.com/3924125/116319084-3f0cde00-a78c-11eb-88a0-d7c9ba01664e.png)
-![5](https://user-images.githubusercontent.com/3924125/116319087-403e0b00-a78c-11eb-8e6c-be4bcc371c45.png)
 
 ### Como rodar o programa
 Instale o Python e o Django:
@@ -30,7 +27,7 @@ https://www.python.org/downloads/ (Python)
 https://pip.pypa.io/en/stable/installing/ (Pip)
 https://www.djangoproject.com/download/ (Django)
 
-É recomendado usar a versão <b>3.8</b> do <b>Python</br> e a versão <b>3.1.1</b> do <b>Django</b> para melhor compatibilidade.
+É recomendado usar a versão 3.8 do Python e a versão 3.1.1 do Django para melhor compatibilidade.
 ```
 No terminal, clone o projeto:
 ```
