@@ -9,7 +9,7 @@
 </p>
 
 > Status do projeto: Concluido :heavy_check_mark:
-Teste o projeto: https://webnote-django.herokuapp.com/
+<p>Teste o projeto: https://webnote-django.herokuapp.com/</p>
 
 ### Funcionalidades
 - Sistema de cadastro, login e logout de usuários
